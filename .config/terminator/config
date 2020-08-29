@@ -1,0 +1,32 @@
+[global_config]
+  borderless = True
+  title_transmit_fg_color = "#a6a28c"
+  title_transmit_bg_color = "#20201d"
+  title_inactive_fg_color = "#a6a28c"
+  title_inactive_bg_color = "#7d7a68"
+  title_use_system_font = False
+  title_font = DroidSansMono Nerd Font Mono 9
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#20201d"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#a6a28c"
+    font = DroidSansMono Nerd Font Mono Bold 10
+    foreground_color = "#a6a28c"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 1050
+    palette = "#20201d:#d73737:#60ac39:#cfb017:#6684e1:#b854d4:#1fad83:#a6a28c:#7d7a68:#d73737:#60ac39:#cfb017:#6684e1:#b854d4:#1fad83:#fefbec"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
