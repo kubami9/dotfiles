@@ -15,6 +15,7 @@
 !.cache/custom-scripts/**
 !.gitignore
 !.bashrc
+!.vimrc
 !.xbindkeysrc
 !.xinitrc
 !README.md
